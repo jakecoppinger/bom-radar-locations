@@ -3,6 +3,8 @@
 import shapefile
 import json
 
+# wget ftp://ftp.bom.gov.au/anon/home/adfd/spatial/IDR00007.dbf
+# :)
 sf = shapefile.Reader("IDR00007.dbf")
 
 # Exclude the first item (deletionFlag)
